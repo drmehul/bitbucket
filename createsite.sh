@@ -149,5 +149,7 @@ drush @umddrupal.dev --uri=http://$DATABASE.umd.edu user-add-role "administrator
 echo "**********************************************************************************************************************"
 echo "Operations completed"
 echo "If DNS request has been completed you can login to site http://dev.$DATABASE.umd.edu"
-echo "If DNS request has not been complete yet, you may edit your hosts file adding line 107.21.105.193	dev.$DATABASE.umd.edu"
+echo "If DNS request has not been complete yet, you may edit your hosts file adding line."
+echo "107.21.105.193 dev.$DATABASE.umd.edu"
 echo "Be sure to remove from your hosts file after testing"
+
